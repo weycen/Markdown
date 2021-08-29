@@ -10,6 +10,7 @@ Markdown格式文档语法说明, 使用记录
 添加2个空格
 
 ### 空格
+### space jump test
 半角模式下, 即使多个空格在markdown格式下也只显示一个, 可采用如下方法添加多个空格:     
  - 插入一个空格 (non-breaking space)  
     `&nbsp`; 或 `&#160`; 或 `&#xA0`;
@@ -36,7 +37,7 @@ Markdown格式文档语法说明, 使用记录
 <https://github.com>, 格式为`<链接地址>`  
 [Github](https://github.com), 格式为`[链接名称](链接地址)`  
 
-### 图片
+### <a name="image"></a> 图片
  - 插入图片  
 格式为`![图片描述](图片地址)`, 图片描述在图片无法加载时显示, 图片地址可为网络地址或本地相对路径;  
 此格式下点击图片会跳转到图片地址;  
@@ -92,6 +93,30 @@ Markdown格式文档语法说明, 使用记录
  - 删除整段  
 ~~周末一起去爬山  
 游泳怎么样~~  
+
+### 页内跳转
+1. Github Flavored Markdow(GFM)
+```
+对于标题# Hello
+正确的链接方式是[Hello](#hello)
+
+对于标题 ## Hello World
+正确的链接方式为[Hello World](#hello-world)
+
+对于标题 ## 空格
+正确的链接方式为[Hello World](#空格)
+
+注意：()中的字母均为小写，单词之间有间隔用 '-' 连接
+```
+示例：[空格](#空格)
+示例：[space jump test](#space-jump-test)
+
+2. html标签实现
+```
+定义一个锚(id)：  <a name="jump"></a>
+使用markdown语法：[点击跳转](#jump)
+```
+示例：[图片](#image)
 
 ### 突出显示
 单个短语或单行: 使用单个反引号符号, 两个单反引号中间内容即为块  
