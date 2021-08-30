@@ -1,6 +1,10 @@
 # Markdown
 Markdown格式文档语法说明, 使用记录
 
+[Markdown语法教程](https://markdown.com.cn/)  
+[Markdown语法整理](https://guo365.github.io/study/Markdown.html)  
+
+
 ## 通用
 ### 标题
 标题用`#`符号实现, `#`符号与标题内容间空一格, 几个`#`表示第几级标题, 标题内容后的空格非必须     
@@ -11,6 +15,8 @@ Markdown格式文档语法说明, 使用记录
 
 ### 空格
 ### space jump test
+[如何在Markdown文档中插入空格?](https://www.cnblogs.com/klchang/p/10203404.html)  
+
 半角模式下, 即使多个空格在markdown格式下也只显示一个, 可采用如下方法添加多个空格:     
  - 插入一个空格 (non-breaking space)  
     `&nbsp`; 或 `&#160`; 或 `&#xA0`;
@@ -95,6 +101,9 @@ Markdown格式文档语法说明, 使用记录
 游泳怎么样~~  
 
 ### 页内跳转
+[MarkDown技巧：两种方式实现页内跳转](https://www.cnblogs.com/JohnTsai/p/4027229.html)  
+[如何实现Github markdown 目录/页内跳转？](https://www.zhihu.com/question/58630229)  
+
 1. Github Flavored Markdow(GFM)
 ```
 对于标题# Hello
