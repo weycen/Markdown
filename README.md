@@ -113,7 +113,7 @@ Markdown格式文档语法说明, 使用记录
 
 2. html标签实现
 ```
-定义一个锚(id)：  <a name="jump"></a>
+定义一个锚(id), `锚` 可以是 p 元素也可以是 a 元素也可以是 span 元素等等：  <a name="jump">跳转到的地方</a>  或 <span id="jump">跳转到的地方</span>
 使用markdown语法：[点击跳转](#jump)
 ```
 示例：[图片](#image)
