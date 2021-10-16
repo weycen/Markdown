@@ -152,4 +152,8 @@ for(i = 0; i< 10; i++) {
 ```
 
 ## Github Issues
-
+### 引用代码块
+在仓库的Issue中引用仓库的部分源代码（某几行）：打开要引用的源代码文件，按住`shift`在代码左侧行号边选择，然后点击`···`选择`Copy permalink`，将复制的链接粘贴至Issue中即可实现插入引用代码框的效果。permalink链接内容如下所示，仅在Issue/PR的评论中可实现此效果，md文件中不可：
+```
+https://github.com/weycen/leetcode/blob/8cbeaa29a40ffb7a2bd76ec07d879fa7be3310c6/src/35.%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE.c#L79-L89
+```
